@@ -5,6 +5,9 @@ module.exports = {
     './src/components/**/*.{js,jsx,ts,tsx}',
   ],
   theme: {
+    fontFamily: {
+      mono: ['Victor Mono', 'monospace'],
+    },
     extend: {
       animation: {
         blob: 'blob 7s infinite',
