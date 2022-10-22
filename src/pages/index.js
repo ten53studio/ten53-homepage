@@ -12,10 +12,10 @@ const index = ({ data }) => {
         {/* background blob animation */}
         <div className="relative w-full max-w-lg m-auto">
           <div className="absolute top-0 -left-4 w-96 h-96 rounded-full bg-amber-300 mix-blend-multiply filter blur-xl opacity-20 md:opacity-40 animate-blob"></div>
-          <div className="absolute top-0 -right-4 w-96 h-96 rounded-full  bg-[#7B8EB3] mix-blend-multiply filter blur-xl opacity-20 md:opacity-30 animate-blob animation-delay-2000 "></div>
-          <div className="absolute -bottom-8 left-20 w-96 h-96 rounded-full bg-[#D63C08] mix-blend-multiply filter blur-xl opacity-20 md:opacity-40 animate-blob animation-delay-4000 z-0"></div>
+          <div className="absolute top-0 -right-4 w-96 h-96 rounded-full  bg-[#7B8EB3] mix-blend-multiply filter blur-xl opacity-20 md:opacity-30 animate-blob animation-delay-2000"></div>
+          <div className="absolute -bottom-8 left-20 w-96 h-96 rounded-full bg-[#D63C08] mix-blend-multiply filter blur-xl opacity-20 md:opacity-40 animate-blob animation-delay-4000"></div>
           {/* content & illustration */}
-          <div className="z-50">
+          <div>
             <h1 className="max-w-xl text-3xl md:text-6xl mx-auto mb-3 font-bold leading-normal">
               Coming Soon
             </h1>
