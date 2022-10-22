@@ -3,10 +3,10 @@ import Header from './header';
 import Footer from './footer';
 
 const Layout = ({ children }) => (
-  <div>
+  <div className="text-[#2A3439]">
     <Header />
     <div>{children}</div>
-    <Footer />
+    {/* <Footer /> */}
   </div>
 );
 

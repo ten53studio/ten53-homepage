@@ -8,7 +8,7 @@ const Header = () => {
     query Logo {
       file(relativePath: { eq: "color.png" }) {
         childImageSharp {
-          gatsbyImageData(layout: FIXED, width: 250, formats: AUTO)
+          gatsbyImageData(width: 200, formats: AUTO)
         }
       }
     }
@@ -17,12 +17,14 @@ const Header = () => {
   const logo = data.file.childImageSharp.gatsbyImageData;
 
   return (
-    <div className="container">
-      <Link to="/">
-        <GatsbyImage image={logo} alt="Studio Logo" className="max-h-24" />
-      </Link>
-      <Navbar />
-    </div>
+    <header className="container mx-auto mt-10 px-6 text-center h-20">
+      <div className="h-20 w-48 mx-auto md:mx-0 md:absolute top-10 left-20">
+        <Link to="/">
+          <GatsbyImage image={logo} alt="Studio Logo" />
+        </Link>
+      </div>
+      {/* <Navbar /> */}
+    </header>
   );
 };
 
