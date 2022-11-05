@@ -16,7 +16,7 @@ const Footer = () => {
 
   return (
     <div>
-      <p>&copy; 2022 {company}</p>
+      &copy; {company} {new Date().getFullYear()}
     </div>
   );
 };
